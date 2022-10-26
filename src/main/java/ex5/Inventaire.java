@@ -26,7 +26,9 @@ public class Inventaire {
 		if (item.getPoids() >= 20) {
 			caisses.get(2).getItems().add(item);
 		}
-	}
+		
+}
+	
 
 	public int taille() {
 		
